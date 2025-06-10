@@ -8,12 +8,16 @@ const Gallery = () => {
     { src: "/gallery/3.jpg" }, // Image
     { src: "/gallery/6.mp4" }, // Video
     { src: "/gallery/4.jpg" }, // Image
-    { src: "/gallery/7.mp4" }, // Video
+    // { src: "/gallery/7.mp4" }, // Video
     { src: "/gallery/5.jpg" }, // Image
-    { src: "/gallery/10.mp4" }, // Image
-    { src: "/gallery/17.mp4" }, // Video
-    { src: "/gallery/14.jpg" }, // Image
-    { src: "/gallery/16.mp4" }, // Video
+    { src: "/gallery/10.mp4" },
+    { src: "/gallery/15.jpg" },
+    { src: "/gallery/16.jpg" } ,// Image
+    { src: "/gallery/17.jpg" }, // Video
+    { src: "/gallery/18.jpg" }, // Image
+    { src: "/gallery/19.jpg" },
+    { src: "/gallery/20.jpg" }
+  // Video
   ];
 
   const [isOpen, setIsOpen] = useState(false);

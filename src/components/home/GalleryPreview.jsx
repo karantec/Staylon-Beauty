@@ -7,6 +7,10 @@ const GalleryPreview = () => {
   // Nail gallery images
   const galleryImages = [
     '/banner/soft-get.jpg',
+    '/banner/gelpolish.jpg',
+        '/banner/Struture.jpg',
+
+        '/banner/temp1.jpg',
     '/gallery/3.jpg',
     '/gallery/14.jpg',
     '/gallery/2.jpg',
@@ -75,21 +79,16 @@ const GalleryPreview = () => {
                 }`}
               >
                 <span className="text-white text-xs font-medium uppercase tracking-wider mb-1">
-                  {index % 6 === 0 ? 'Nail Art Design' : 
-                   index % 6 === 1 ? 'Gel Extensions' : 
-                   index % 6 === 2 ? 'Soft Gel Extensions' : 
-                   index % 6 === 3 ? 'Structured Nails (BIAB)' :
-                   index % 6 === 4 ? 'Gum Gel Enhancements' : 'Premium Nail Art'}
+                 
                 </span>
                 <h3 className="text-white text-lg font-bold mb-2">
-                  {index % 3 === 0 ? 'Signature Design' : 
-                   index % 3 === 1 ? 'Before & After' : 'Premium Service'}
+                 
                 </h3>
                 <div className="flex items-center text-rose-300">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
-                  <span className="text-sm">Client Favorite</span>
+     
                 </div>
               </div>
             </div>

@@ -76,7 +76,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Dropdown */}
-          <div className="relative group">
+          {/* <div className="relative group">
             <button
               className="flex items-center hover:text-pink-600 transition duration-300"
               onMouseEnter={() => setDropdownOpen(true)}
@@ -109,14 +109,6 @@ const Header = () => {
               onMouseLeave={() => setDropdownOpen(false)}
             >
               <Link
-                to="/appointment"
-                className={`block px-4 py-2 hover:bg-pink-50 transition ${isActive(
-                  "/appointment"
-                )}`}
-              >
-                Book Appointment
-              </Link>
-              <Link
                 to="/opening-hours"
                 className={`block px-4 py-2 hover:bg-pink-50 transition ${isActive(
                   "/opening-hours"
@@ -124,8 +116,16 @@ const Header = () => {
               >
                 Opening Hours
               </Link>
+              <Link
+                to="/policies"
+                className={`block px-4 py-2 hover:bg-pink-50 transition ${isActive(
+                  "/policies"
+                )}`}
+              >
+                Policies
+              </Link>
             </div>
-          </div>
+          </div> */}
 
           <Link
             to="/contact"
@@ -193,34 +193,34 @@ const Header = () => {
         <nav className="container mx-auto px-4 py-2 flex flex-col space-y-3">
           <Link
             to="/"
-            className={`py-2 border-b border-gray-100 ${isActive("/")}`}
+            className={`py-2 border-b border-gray-100 hover:text-pink-600 transition ${isActive("/")}`}
           >
             Home
           </Link>
           <Link
             to="/about"
-            className={`py-2 border-b border-gray-100 ${isActive("/about")}`}
+            className={`py-2 border-b border-gray-100 hover:text-pink-600 transition ${isActive("/about")}`}
           >
             About
           </Link>
           <Link
             to="/services"
-            className={`py-2 border-b border-gray-100 ${isActive("/services")}`}
+            className={`py-2 border-b border-gray-100 hover:text-pink-600 transition ${isActive("/services")}`}
           >
             Services
           </Link>
           <Link
             to="/gallery"
-            className={`py-2 border-b border-gray-100 ${isActive("/gallery")}`}
+            className={`py-2 border-b border-gray-100 hover:text-pink-600 transition ${isActive("/gallery")}`}
           >
             Gallery
           </Link>
 
           {/* Mobile Dropdown */}
-          <div className="py-2 border-b border-gray-100">
+          {/* <div className="py-2 border-b border-gray-100">
             <button
               onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="flex items-center justify-between w-full"
+              className="flex items-center justify-between w-full hover:text-pink-600 transition"
             >
               <span>Other</span>
               <svg
@@ -244,27 +244,27 @@ const Header = () => {
               className={`pl-4 mt-2 space-y-2 transition-all duration-300 ${
                 dropdownOpen
                   ? "max-h-40 opacity-100"
-                  : "max-h-0 opacity-0 hidden"
+                  : "max-h-0 opacity-0 overflow-hidden"
               }`}
             >
               <Link
-                to="/appointment"
-                className={`block py-2 ${isActive("/appointment")}`}
-              >
-                Book Appointment
-              </Link>
-              <Link
                 to="/opening-hours"
-                className={`block py-2 ${isActive("/opening-hours")}`}
+                className={`block py-2 hover:text-pink-600 transition ${isActive("/opening-hours")}`}
               >
                 Opening Hours
               </Link>
+              <Link
+                to="/policies"
+                className={`block py-2 hover:text-pink-600 transition ${isActive("/policies")}`}
+              >
+                Policies
+              </Link>
             </div>
-          </div>
+          </div> */}
 
           <Link
             to="/contact"
-            className={`py-2 border-b border-gray-100 ${isActive("/contact")}`}
+            className={`py-2 border-b border-gray-100 hover:text-pink-600 transition ${isActive("/contact")}`}
           >
             Contact
           </Link>

@@ -16,50 +16,44 @@ const HeroCarousel = () => {
       image: "/banner/gum-gel.jpg",
       subtitle: "Luxury Gel Nails",
       title: "Gel Nails",
-      description: "A durable and glossy finish. ₹550",
+     
       ctaText: "Book Gel Nails",
       ctaLink: "/appointment?service=gel-nails",
     },
     {
-      image: "/banner/soft-get.jpg",
+      image: "/banner/Struture.jpg",
       subtitle: "Strong Yet Elegant",
       title: "Structured Nails / BIAB",
-      description: "Strengthened gel overlays for natural nails. ₹750",
+     
       ctaText: "Book Structured Nails",
       ctaLink: "/appointment?service=structured-nails",
     },
+    
     {
-      image: "/banner/temp-nail.jpg",
-      subtitle: "Flexibility Meets Glam",
-      title: "Gum Nails",
-      description: "Flexible and long-lasting nail enhancements. ₹850",
-      ctaText: "Book Gum Nails",
-      ctaLink: "/appointment?service=gum-nails",
-    },
-    {
-      image: "/gallery/3.jpg",
+      image: "/banner/temp1.jpg",
       subtitle: "Instant Beauty",
       title: "Temporary Nails",
-      description: "Pop-on nails for short-term glam. ₹900",
+    
       ctaText: "Book Temporary Nails",
       ctaLink: "/appointment?service=temporary-nails",
     },
     {
-      image: "/gallery/4.jpg",
+      image: "/banner/gumgel.jpg",
+      subtitle: "Instant Beauty",
+      title: "Gum Gel",
+    
+      ctaText: "Book Gum Gel",
+      ctaLink: "/appointment?service=temporary-nails",
+    },
+    {
+      image: "/banner/Gelextension.jpg",
       subtitle: "Elegant Extensions",
       title: "Gel Extensions",
-      description: "Lightweight and elegant nail extensions. ₹1100",
+     
       ctaText: "Book Gel Extensions",
       ctaLink: "/appointment?service=gel-extensions",
     },
-    {
-      image: "/gallery/5.jpg",
-      subtitle: "Soft & Natural",
-      title: "Soft Gel Extensions",
-      description: "Flexible and natural-looking extensions. ₹900",
-      ctaText: "Book Soft Gel Extensions",
-      ctaLink: "/appointment?service=soft-gel-extensions",
-    },
+    
   ];
 
   const CustomIndicator = ({ onClickHandler, isSelected, index, label }) => (

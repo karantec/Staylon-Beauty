@@ -9,6 +9,7 @@ import OpeningHours from './pages/OpeningHours'
 import Header from './components/common/Header'
 import Footer from './components/common/Footer'
 import WhatsAppButton from './components/common/WhatsAppButton'
+import ServicesSection from './pages/Services'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<ServicesSection />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/appointment" element={<Appointment />} />

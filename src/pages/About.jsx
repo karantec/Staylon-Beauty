@@ -202,7 +202,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-800">Expert Techniques</h3>
               <p className="text-gray-600">
-                Our skilled nail technicians continually refine their craft to deliver flawless results every time.
+                We continually refine their craft to deliver flawless results every time.
               </p>
             </div>
           </div>
@@ -215,7 +215,7 @@ const About = () => {
           <div className="bg-gradient-to-r from-rose-500 to-pink-500 rounded-2xl overflow-hidden shadow-xl">
             <div className="grid grid-cols-2 md:grid-cols-4">
               <div className="p-8 md:p-10 text-center border-r border-b md:border-b-0 border-white/20">
-                <div className="text-4xl font-bold text-white mb-2">5+</div>
+                <div className="text-4xl font-bold text-white mb-2">2+</div>
                 <div className="text-rose-100">Years of Expertise</div>
               </div>
               <div className="p-8 md:p-10 text-center border-b md:border-r md:border-b-0 border-white/20">
@@ -284,7 +284,7 @@ const About = () => {
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
                     <p className="text-sm text-gray-600">
-                      +91 97693 80961
+                      +91 9004065531
                     </p>
                   </div>
                 </div>

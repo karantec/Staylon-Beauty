@@ -11,56 +11,47 @@ const ServicesSection = () => {
         {
           title: 'Gel Polish Application',
           description: 'A flawless coat of high-gloss color, perfect for every occasion. Our premium gel polish provides long-lasting shine and durability without chipping.',
-          image: '/banner/nails-1.jpg',
-          price: '₹550'
+          image: '/banner/gelpolish.jpg',
+          // price: '₹550'
         },
         {
-          title: 'Structured Manicure (BIAB)',
+          title: 'Temporary Nail Enhancements',
           description: 'Strengthen and enhance your natural nails with our premium builder base. This innovative treatment adds structure while allowing natural growth.',
-          image: '/banner/nails-2.jpg',
-          price: '₹750'
+          image: '/banner/temp1.jpg',
+          // price: '₹750'
         },
-        {
-          title: 'Temporary Nails',
-          description: 'The ideal choice for a short-term, stunning transformation. Perfect for special events when you need a quick but elegant nail solution.',
-          image: '/banner/nails-3.jpg',
-          price: '₹800'
-        },
+       
         {
           title: 'Soft Gel Extensions',
           description: 'Seamless, flexible enhancements for a lightweight, natural feel. Our soft gel extensions move with your natural nails for comfort and durability.',
-          image: '/banner/nails-4.jpg',
-          price: '₹900'
+          image: '/banner/soft-get.jpg',
+          // price: '₹900'
         },
+         {
+          title: 'Gum Gel Extensions',
+          description: 'Seamless, flexible enhancements for a lightweight, natural feel. Our soft gel extensions move with your natural nails for comfort and durability.',
+          image: '/banner/gumgel.jpg',
+          // price: '₹900'
+        },
+
       ]
     },
     {
       title: 'Premium Nails',
       services: [
         {
-          title: 'Gum Gel Enhancements',
-          description: 'Durable, sculpted extensions designed for ultimate resilience and elegance. Perfect for those who need extra strength without sacrificing style.',
-          image: '/banner/nails-5.jpg',
-          price: '₹950'
+          title: 'Structure BIAB Enhancements',
+          description: 'Ideal for those seeking durable, sculpted nail extensions that resist chipping and maintain their flawless shape over time. This treatment offers added resilience while preserving a sleek and stylish look — perfect for everyday wear or special occasions..',
+          image: '/banner/Struture.jpg',
+          // price: '₹950'
         },
         {
           title: 'Gel Extensions',
-          description: 'Bespoke length and strength, crafted with precision. Our premium gel extensions offer the perfect canvas for creative designs and luxurious finishes.',
-          image: '/banner/nails-6.jpg',
-          price: '₹1200'
+          description: 'Elevate your nails with our Premium Gel Extensions, expertly crafted for custom length and lasting strength. These extensions provide a smooth, glossy finish that serves as a flawless base for intricate nail art or classic styles. Designed for durability and beauty, they are the ultimate choice for a luxurious, long-lasting manicure..',
+          image: '/banner/gel2.jpg',
+          // price: '₹1200'
         },
-        {
-          title: 'Nail Art Design',
-          description: 'Express your personality with our custom nail art designs. From minimalist patterns to elaborate artwork, our skilled technicians create stunning visual effects.',
-          image: '/banner/nails-7.jpg',
-          price: 'From ₹450'
-        },
-        {
-          title: 'Nail Repair',
-          description: 'Restore damaged nails with our specialized repair techniques. Our experts can fix breaks, splits, and chips to maintain your beautiful manicure.',
-          image: '/banner/nails-8.jpg',
-          price: 'From ₹350'
-        },
+        
       ]
     }
   ];

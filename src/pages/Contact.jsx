@@ -133,7 +133,7 @@ const Contact = () => {
             <div>
               <h2 className="text-2xl font-bold mb-6">Visit Shringar.kay</h2>
               <p className="text-indigo-100 mb-8">
-                ! We are delighted to offer you a cozy and professional
+                 We are delighted to offer you a cozy and professional
                 home-based nail studio where you can enjoy high-quality nail
                 services in a relaxing environment.
               </p>
@@ -162,10 +162,9 @@ const Contact = () => {
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
               <div className="grid grid-cols-2 gap-2 text-indigo-100">
-                <div>Monday - Friday</div>
-                <div>10:00 AM - 8:00 PM</div>
-                <div>Saturday</div>
-                <div>10:00 AM - 6:00 PM</div>
+                <div>Monday - Saturday</div>
+                <div>11:00 AM - 6:00 PM</div>
+               
                 <div>Sunday</div>
                 <div>Closed</div>
               </div>

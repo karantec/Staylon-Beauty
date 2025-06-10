@@ -5,7 +5,7 @@ const OpeningHours = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold mb-4">Opening Hours</h1>
           <p className="max-w-2xl mx-auto text-lg">
-            Plan your visit to our beauty parlour
+            Plan your visit to our Studio
           </p>
         </div>
 
@@ -23,8 +23,8 @@ const OpeningHours = () => {
               <h3 className="text-2xl font-bold mb-6">Our Schedule</h3>
               <ul className="space-y-4">
                 <li className="flex justify-between border-b pb-2">
-                  <span>Monday - Sunday</span>
-                  <span className="font-medium">10:00 AM - 9:00 PM</span>
+                  <span>Monday - Saturday</span>
+                  <span className="font-medium">11:00 AM - 6:00 PM</span>
                 </li>
               </ul>
 

@@ -13,14 +13,14 @@ const AboutSection = () => {
                   About Us
                 </h2>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
-                  Shringar.kay Nails Parlour,{" "}
-                  <span className="block mt-1">Known for Our Services</span>
+                  Shringar.kay Home Based Nails Studio
+                 
                 </h3>
               </div>
 
               <p className="text-gray-600 text-lg leading-relaxed">
                 At Shringar.kay, we specialize in premium nail services designed
-                to enhance your natural beauty. Our skilled technicians deliver
+                to enhance your natural beauty.  We are  delivering
                 flawless results using high-quality products for a luxurious
                 salon experience that leaves you feeling refreshed and
                 confident.
